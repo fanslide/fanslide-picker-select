@@ -56,8 +56,7 @@
     },
     "husky": {
         "hooks": {
-            "pre-commit": "pretty-quick --staged",
-            "pre-push": "echo \"---Running ESLint---\" && yarn lint && yarn test"
+            "pre-commit": "pretty-quick --staged"
         }
     },
     "jest": {
